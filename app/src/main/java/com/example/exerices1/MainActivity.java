@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else if (nama.equals("Pascal") && !password.equals("iniPascal")){
                         Toast t = Toast.makeText(getApplicationContext(), "Password Anda Salah", Toast.LENGTH_SHORT);
-                        t.show();
+                        t.show() ;
                     }
                     else if(!nama.equals("Pascal") && password.equals("iniPascal")){
                         Toast t = Toast.makeText(getApplicationContext(), "Nama Anda Salah", Toast.LENGTH_LONG);
